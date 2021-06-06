@@ -1,0 +1,117 @@
+.cover{
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/comida.jpg');
+    height: 270px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    color: white;
+  }
+  
+  body{
+    text-align:justify;
+    font-family:Open Sans,sans-serif;
+    background-color:#ffc;
+    color: #c06;
+    margin: 0px;
+    margin-bottom: 30px;
+  }
+  
+  h2{
+   color: black;
+   font-size:40px;
+   text-align: center;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-style: italic;
+  }
+  
+  
+  section{
+   width: 80%;
+   margin:0 auto;
+   font-size: 17px;
+   line-height: 1.4;
+  }
+  
+  section section{
+    width: 100%
+  }
+  
+  h1{
+    font-size: 80px;
+    font-weight: 700;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+  }
+  
+  h3{
+    font-size:28px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  p{
+    font-size:18px;
+    line-height:1.5;
+    line-break: 0;
+  }
+  
+  img{
+    width: 400px;
+   }
+  
+  .outside{
+    list-style-type:none;
+    padding-left:0;
+  }
+  
+  a{
+    text-decoration:none;
+    color:#90C;
+    font-weight:700;
+    line-height:2
+  }
+  
+  .principal{
+    background-color:#ff6cb5;
+    text-align: center;
+  }
+  
+  .principal a{
+    color:#fff;
+    text-decoration:underline;
+  }
+  
+  .principal li{
+    display:inline-table;
+    line-height:2.5;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #FF0;
+    border: solid 3px #90C;
+    padding: 0 6px;
+    border-radius: 7px;
+    font-size: 16px;
+    font-family: "arial black";
+  }
+  
+  .principal a:hover{
+    color:black;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .linkutil:hover {
+    color:#3c3;
+    font-size: 19px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  button:hover {
+    background-color: #CF3;
+    cursor: pointer;
+  }
